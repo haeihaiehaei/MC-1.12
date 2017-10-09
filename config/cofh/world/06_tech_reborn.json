@@ -1,0 +1,98 @@
+{
+    "dependencies":"techreborn",
+    "populate":{
+
+  "Galena":{
+		"distribution":"uniform",
+		"generator":{
+				"type":"sparse-cluster",
+				"block":{
+						"name":"techreborn:ore",
+						"metadata":0
+				},
+				"material":"minecraft:stone",
+				"cluster-size":4
+		},
+		"cluster-count":1,
+		"chunk-chance":4,
+		"min-height":10,
+		"max-height":55,
+		"vein-height":2,
+		"vein-diameter":5,
+		"vertical-density":0,
+		"horizontal-density":1,
+		"biome":"all",
+		"in-village":false,
+		"retrogen":true,
+		"dimension":{
+				"restriction":"blacklist",
+				"value":[
+						-1,
+						1
+				]
+		}
+},
+
+"Ruby":{
+		"distribution":"uniform",
+		"generator":{
+				"type":"sparse-cluster",
+				"block":{
+						"name":"techreborn:ore",
+						"metadata":2
+				},
+				"material":"minecraft:stone",
+				"cluster-size":4
+		},
+		"cluster-count":1,
+		"chunk-chance":4,
+		"min-height":10,
+		"max-height":55,
+		"vein-height":2,
+		"vein-diameter":5,
+		"vertical-density":0,
+		"horizontal-density":1,
+		"biome":"all",
+		"in-village":false,
+		"retrogen":true,
+		"dimension":{
+				"restriction":"blacklist",
+				"value":[
+						-1,
+						1
+				]
+		}
+},
+
+"Sapphire":{
+		"distribution":"uniform",
+		"generator":{
+				"type":"sparse-cluster",
+				"block":{
+						"name":"techreborn:ore",
+						"metadata":3
+				},
+				"material":"minecraft:stone",
+				"cluster-size":4
+		},
+		"cluster-count":1,
+		"chunk-chance":4,
+		"min-height":10,
+		"max-height":55,
+		"vein-height":2,
+		"vein-diameter":5,
+		"vertical-density":0,
+		"horizontal-density":1,
+		"biome":"all",
+		"in-village":false,
+		"retrogen":true,
+		"dimension":{
+				"restriction":"blacklist",
+				"value":[
+						-1,
+						1
+				]
+		}
+}
+}
+}
