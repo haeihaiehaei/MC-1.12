@@ -59,40 +59,5 @@
                 ]
             }
         },
-        "osmium":{
-            "distribution":"uniform",
-            "generator":{
-                "type":"sparse-cluster",
-                "block":[
-                    {
-                        "name":"thermalfoundation:ore",
-                        "metadata":2,
-                        "weight":80
-                    },
-                    {
-                        "name":"thermalfoundation:ore",
-                        "metadata":3,
-                        "weight":20
-                    }
-                ],
-                "material":"minecraft:stone",
-                "cluster-size":4
-            },
-            "cluster-count":1,
-            "chunk-chance":4,
-            "min-height":0,
-            "max-height":30,
-            "biome":"all",
-            "in-village":false,
-            "retrogen":true,
-            "dimension":{
-                "restriction":"blacklist",
-                "value":[
-                    -1,
-                    1
-                ]
-            }
-        },
-
-    }
+       }
 }
